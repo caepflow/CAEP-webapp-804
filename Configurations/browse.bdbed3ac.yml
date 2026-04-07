@@ -31,9 +31,12 @@ page:
         hidden: false
         search: true
       - name: type
-        label: ""
+        label: Type
         hidden: false
         search: true
     card:
       body: []
+      avatar: "{{code}}"
+      title: "{{name}}"
+      subtitle: "{{description}}"
   action: run
