@@ -1,0 +1,15 @@
+id: 7e12c962-082a-c46c-568f-d9fd036c0fa0
+type: datasource
+name: Tickets
+description: Description for NewDatasource
+mode: ReadWrite
+rootEntity: Tickets
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: Id
+  - name: code
+  - name: type
+  - name: description
+  - name: openDate
+pageSize: 25

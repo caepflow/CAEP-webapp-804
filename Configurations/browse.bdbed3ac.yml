@@ -1,11 +1,39 @@
 id: c14216d9-fb91-4c1a-b659-fc370a752149
 type: state
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    a4f75a63-aea5-4da2-9f51-8f395f7ca474:
-      x: 87.5
-      y: 175
+  - namespace: c4modeler
+    name: position
+    value:
+      a4f75a63-aea5-4da2-9f51-8f395f7ca474:
+        x: 87.5
+        y: 175
 name: browse
 description: Description for new-state
+page:
+  type: formDesigner
+  id: 3204541f-4972-4fb6-a14a-fcf098baa21f
+  name: browse
+  description: Description for new-state
+  template: quick-search
+  datasource: 7e12c962-082a-c46c-568f-d9fd036c0fa0
+  properties:
+    columns:
+      - name: code
+        label: Code
+        hidden: false
+        search: false
+      - name: description
+        label: Description
+        hidden: false
+        search: false
+      - name: openDate
+        label: Date
+        hidden: false
+        search: true
+      - name: type
+        label: ""
+        hidden: false
+        search: true
+    card:
+      body: []
+  action: run
