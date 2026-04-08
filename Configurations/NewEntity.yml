@@ -26,12 +26,6 @@ fields:
     isPublic: true
     enumerable: true
     annotations: []
-  - name: openDate
-    type: datetime
-    description: Description for openDate
-    isPublic: true
-    enumerable: true
-    annotations: []
 description: Entity
 associations: []
 useRepository: true

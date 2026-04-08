@@ -11,5 +11,4 @@ fields:
   - name: code
   - name: type
   - name: description
-  - name: openDate
 pageSize: 25
