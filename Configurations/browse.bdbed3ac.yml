@@ -10,7 +10,6 @@ annotations:
 name: browse
 description: Description for new-state
 page:
-  type: formDesigner
   id: 3204541f-4972-4fb6-a14a-fcf098baa21f
   name: browse
   description: Description for new-state
@@ -41,4 +40,5 @@ page:
       avatar: "{{code}}"
       title: "{{name}}"
       subtitle: "{{description}}"
+    mode: both
   action: run
