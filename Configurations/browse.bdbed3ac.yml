@@ -25,14 +25,6 @@ page:
         label: Description
         hidden: false
         search: false
-      - name: openDate
-        label: Date
-        hidden: false
-        search: true
-      - name: type
-        label: Type
-        hidden: false
-        search: true
     card:
       body:
         - "{{code}}"

@@ -9,6 +9,5 @@ allowPersistence: false
 fields:
   - name: Id
   - name: code
-  - name: type
   - name: description
 pageSize: 25
