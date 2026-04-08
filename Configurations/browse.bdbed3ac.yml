@@ -35,7 +35,9 @@ page:
         hidden: false
         search: true
     card:
-      body: []
+      body:
+        - "{{code}}"
+        - "{{description}}"
       avatar: "{{code}}"
       title: "{{name}}"
       subtitle: "{{description}}"
